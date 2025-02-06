@@ -1,0 +1,78 @@
+@import url("./colors.css");;
+
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 95vh;
+    width: 95vw;
+    background-color: rgba(192, 192, 192, 0.201);
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hide{
+    display: none;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    width: 40%;
+    padding: 0;
+}
+form{
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+.log-in, .sign-up{
+    width: 100%;
+    border-top: 40px solid var(--primary);
+}
+.containerTitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+h1{
+    font-size: xx-large;
+    margin-bottom: 60px;
+}
+label{
+    /* display: block; */
+}
+input{
+    /* display: inline; */
+    /* height: 30px; */
+}
+.myCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+.btn{
+    background-color: var(--primary);
+}
+.icon{
+    height: 17px;
+}
+.iconShow, .iconHide{
+    height: 10px;
+    width: 20px;
+}
+.back{
+    width: 40px;
+    margin-top: 10px;
+    transform: scaleX(-1);
+}
+.enter{
+    color: var(--primary);
+    text-decoration: underline;
+}

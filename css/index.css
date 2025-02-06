@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    min-height: 94vh;
+    width: 96vw;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+}
+.board{
+    border: 6px solid rgb(213, 206, 206);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: auto;
+    /* width: 100%; */
+    /* gap: 1px; */
+    width: fit-content;
+    box-shadow: 11px 12px 10px 4px #7d6060;
+}
+.cell{
+    height: 50px;
+    width: 50px;
+}
+.cell-light{
+    background-color: rgb(220, 162, 99);
+}
+.cell-dark{
+    background-color: rgb(106, 32, 12);
+    
+}
+.pawn{
+    width: 40px;
+    height: 40px;
+}
